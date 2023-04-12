@@ -14,10 +14,10 @@
         <protocol>http</protocol>
         
         <!-- title of the document -->
-        <documentTitle>MyStoreProject</documentTitle>
+        <documentTitle>AmazonProject</documentTitle>
         
         <!-- report name - displayed at top-nav -->
-        <reportName>MyStoreProject Report
+        <reportName>AmazonProject Report
          <![CDATA[
                 <img src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/Logo/MyStore.png'/>
             ]]>

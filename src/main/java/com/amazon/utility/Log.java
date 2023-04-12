@@ -1,4 +1,4 @@
-package com.crm.qa.utility;
+package com.amazon.utility;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -8,9 +8,6 @@ import java.io.File;
 public class Log {
 	
 	// Initialize Log4j logs
-	static {
-		PropertyConfigurator.configure(System.getProperty("user.dir") + File.separator + "config" +File.separator+ "log4j.properties");
-	}
 
 	public static Logger Log = Logger.getLogger(Log.class.getName());
 
