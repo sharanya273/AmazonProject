@@ -16,6 +16,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -34,7 +35,7 @@ public class BaseClass {
         // Get Driver from threadLocalmap
         return driver.get();
     }
-    @BeforeSuite
+    @BeforeSuite(groups={"Smoke","Sanity"})
     public void loadConfig() throws IOException {
         ExtentManager.setExtent();
         DOMConfigurator.configure("log4j.xml");
@@ -52,10 +53,10 @@ public class BaseClass {
 
 
 
+@Parameters("browser")
+    public static void launchApp(String browserName) {
 
-    public static void launchApp() {
-
-        String browserName = prop.getProperty("browser");
+        //String browserName = prop.getProperty("browser");
         if (browserName.equalsIgnoreCase("chrome")) {
             ChromeOptions opt = new ChromeOptions();
             opt.addArguments("--remote-allow-origins=*");
@@ -76,7 +77,7 @@ public class BaseClass {
 
 
 
-@AfterSuite
+@AfterSuite(groups={"Smoke","Sanity"})
     public void aftersuite(){
         ExtentManager.endReport();
 }

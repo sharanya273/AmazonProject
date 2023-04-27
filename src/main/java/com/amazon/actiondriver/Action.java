@@ -28,7 +28,7 @@ public class Action extends BaseClass {
     public static void click(WebDriver driver, WebElement ele) {
 
         Actions act = new Actions(driver);
-        act.moveToElement(ele).click().build().perform();
+        act.click(ele).build().perform();
 
     }
 
@@ -54,10 +54,10 @@ public class Action extends BaseClass {
             flag = false;
         } finally {
             if (flag) {
-                System.out.println("Successfully Found element at");
+                System.out.println("Successfully Found element at"+ele);
 
             } else {
-                System.out.println("Unable to locate element at");
+                System.out.println("Unable to locate element at"+ele);
             }
         }
         return flag;

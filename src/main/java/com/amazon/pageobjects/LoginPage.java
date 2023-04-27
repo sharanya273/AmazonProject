@@ -35,6 +35,7 @@ public class LoginPage extends BaseClass {
         Action.explicitWait(getDriver(),password,30);
         Action.type(password,pswd);
         Action.click(getDriver(),signInSubmit);
+
         yourAccountPage=new YourAccountPage();
         return yourAccountPage;
 

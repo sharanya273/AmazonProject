@@ -4,40 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d295b45b-095d-4178-b3b1-015e26f1e2ea" name="Changes" comment="">
+    <list default="true" id="d295b45b-095d-4178-b3b1-015e26f1e2ea" name="Changes" comment="latest commit">
+      <change afterPath="$PROJECT_DIR$/screenshots/2023_04_26_20_57_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/BrokenLinkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/BrokenLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngParellel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extent-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/extent-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_02_38_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/2023_03_03_02_38_31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_02_46_42.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/2023_03_03_02_46_42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_15_46_29.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/2023_03_06_15_46_29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_16_38_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/2023_03_06_16_38_17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_17_11_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/2023_03_06_17_11_46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_02_38_31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_02_46_42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_15_46_29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_16_38_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_17_11_46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_15_06_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_15_41_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_15_36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_16_43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_17_52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_20_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_27_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_30_55.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/actiondriver/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/actiondriver/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/base/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/IndexPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/SearchResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/YourAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/YourAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/ExtentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/ListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/ListenerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/TestDataNew.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/TestDataNew.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/XLUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/XLUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/IndexPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/IndexPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/SearchResultsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/SearchResultsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/TestDataNew.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/TestDataNew.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testDataSheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testDataSheet.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/~$TestData.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ExtentReport/MyReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport/MyReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -80,8 +86,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sharanyakadarla/Desktop/AmazonProject/src/main/java/com/amazon/utility&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sharanyakadarla/Desktop/AmazonProject/test-output&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
@@ -89,8 +95,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-output" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/amazon/utility" />
       <recent name="$PROJECT_DIR$/src/test/resources/TestData" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -98,7 +109,7 @@
       <recent name="com.amazon.dataprovider" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Run Maven">
+  <component name="RunManager" selected="TestNG./Users/sharanyakadarla/Desktop/AmazonProject/testng.xml">
     <configuration name="Run Maven" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -124,7 +135,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="IndexPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IndexPageTest.verifyTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazonProject" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +145,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.amazon.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.amazon.testcases.IndexPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="verifyTitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,36 +170,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.signInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/sharanyakadarla/Desktop/AmazonProject/testngParellel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazonProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amazon.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amazon.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.amazon.testcases.LoginPageTest" />
-      <option name="METHOD_NAME" value="signInTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchResultsPageTest.productAvailabilityTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazonProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amazon.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amazon.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.amazon.testcases.SearchResultsPageTest" />
-      <option name="METHOD_NAME" value="productAvailabilityTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngParellel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -208,6 +194,18 @@
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/sharanyakadarla/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$USER_HOME$/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,19 +213,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.Run Maven" />
-      <item itemvalue="TestNG./Users/sharanyakadarla/Desktop/AmazonProject/testng.xml" />
-      <item itemvalue="TestNG.IndexPageTest" />
+      <item itemvalue="TestNG./Users/sharanyakadarla/Desktop/AmazonProject/testngParellel.xml" />
+      <item itemvalue="TestNG./Users/sharanyakadarla/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
+      <item itemvalue="TestNG.IndexPageTest.verifyTitleTest" />
       <item itemvalue="TestNG.LoginPageTest" />
-      <item itemvalue="TestNG.LoginPageTest.signInTest" />
-      <item itemvalue="TestNG.SearchResultsPageTest.productAvailabilityTest" />
+      <item itemvalue="TestNG./Users/sharanyakadarla/Desktop/AmazonProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/sharanyakadarla/Desktop/AmazonProject/testng.xml" />
+        <item itemvalue="TestNG./Users/sharanyakadarla/Desktop/AmazonProject/testngParellel.xml" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.LoginPageTest.signInTest" />
-        <item itemvalue="TestNG.IndexPageTest" />
-        <item itemvalue="TestNG.SearchResultsPageTest.productAvailabilityTest" />
+        <item itemvalue="TestNG.IndexPageTest.verifyTitleTest" />
+        <item itemvalue="TestNG./Users/sharanyakadarla/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -240,10 +238,20 @@
       <option name="presentableId" value="Default" />
       <updated>1677639553887</updated>
     </task>
+    <task id="LOCAL-00001" summary="latest commit">
+      <created>1681264543609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681264543609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="latest commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

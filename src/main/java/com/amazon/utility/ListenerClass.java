@@ -31,8 +31,6 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 		if (result.getStatus() == ITestResult.FAILURE) {
 			test.log(Status.FAIL,
 					MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
-			test.log(Status.FAIL,
-					MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
 			String REPORT_SCREENSHOT_PATH = Action.screenShot(BaseClass.getDriver(), result.getName());
 
 			test.fail("ScreenShot is Attached", MediaEntityBuilder.createScreenCaptureFromPath(REPORT_SCREENSHOT_PATH).build());

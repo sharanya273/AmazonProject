@@ -2,23 +2,26 @@ package com.amazon.testcases;
 
 import com.amazon.base.BaseClass;
 import com.amazon.pageobjects.IndexPage;
+import com.amazon.utility.Log;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class IndexPageTest extends BaseClass {
     IndexPage indexPage;
-    @BeforeMethod
-    public void setup() {
-        launchApp();
+    @Parameters("browser")
+    @BeforeMethod(groups={"Smoke","Sanity"})
+    public void setup(String browser) {
+        launchApp(browser);
     }
-    @AfterMethod
+    @AfterMethod(groups={"Smoke","Sanity"})
     public void tearDown(){
         getDriver().quit();
     }
 
-    @Test
+    @Test(groups="Sanity")
     public void verifyLogoTest(){
         indexPage = new IndexPage();
        // Log.info("validate the log");
@@ -28,12 +31,13 @@ public class IndexPageTest extends BaseClass {
 
 
     }
-    @Test
+    @Test(groups="Sanity")
     public void verifyTitleTest(){
-       // Log.debug("Hai dfkdjj==================");
+        Log.startTestCase("verifyTitleTest");
         String actTitle = indexPage.getAmazonTitle();
+        Log.info("verifying that the title matches");
         Assert.assertEquals(actTitle,"Amazon.com. Spend less. Smile more.");
-       // Log.error("test fials display this");
+       Log.endTestCase("verifyTitleTest");
     }
 
 }

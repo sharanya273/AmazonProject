@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/sharanyakadarla/Desktop/AmazonProject">
+        <classes>
+            <class name="com.amazon.testcases.IndexPageTest">
+                <methods>
+                    <include name="verifyLogoTest"/>
+                    <include name="verifyTitleTest"/>
+                </methods>
+            </class>
+            <class name="com.amazon.testcases.LoginPageTest">
+                <methods>
+                    <include name="signInTest"/>
+                </methods>
+            </class>
+            <class name="com.amazon.testcases.SearchResultsPageTest">
+                <methods>
+                    <include name="productAvailabilityTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

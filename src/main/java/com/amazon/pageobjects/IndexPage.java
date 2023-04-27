@@ -28,6 +28,7 @@ public class IndexPage extends BaseClass {
 
     public LoginPage clickOnSignIn() throws Throwable {
         Action.click(getDriver(),signInBtn);
+        Thread.sleep(3000);
         return new LoginPage();
 
     }
