@@ -2,7 +2,9 @@ package com.amazon.testcases;
 
 import com.amazon.base.BaseClass;
 import com.amazon.pageobjects.IndexPage;
+import com.amazon.utility.ListenerClass;
 import com.amazon.utility.Log;
+import com.aventstack.extentreports.Status;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -36,6 +38,8 @@ public class IndexPageTest extends BaseClass {
         Log.startTestCase("verifyTitleTest");
         String actTitle = indexPage.getAmazonTitle();
         Log.info("verifying that the title matches");
+        ListenerClass.test.log(Status.INFO,"info1");
+        ListenerClass.test.log(Status.INFO,"info2");
         Assert.assertEquals(actTitle,"Amazon.com. Spends less. Smile more.");
        Log.endTestCase("verifyTitleTest");
     }
