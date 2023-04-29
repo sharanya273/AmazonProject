@@ -60,6 +60,7 @@ public class BaseClass {
         if (browserName.equalsIgnoreCase("chrome")) {
             ChromeOptions opt = new ChromeOptions();
             opt.addArguments("--remote-allow-origins=*");
+            opt.addArguments("headless");
             driver.set(new ChromeDriver(opt));
 
 

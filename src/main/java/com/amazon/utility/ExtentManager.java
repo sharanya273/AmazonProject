@@ -19,6 +19,7 @@ public class ExtentManager {
 	public static void setExtent() throws IOException {
 		//htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+BaseClass.getCurrentTime()+".html");
 		htmlReporter= new ExtentSparkReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport.html");
+		//htmlReporter= new ExtentSparkReporter(System.getProperty("user.dir")+"./Reports"+"MyReport.html");
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
 		//htmlReporter.config().setDocumentTitle("Automation Test Report");
 		//htmlReporter.config().setReportName("OrangeHRM Test Automation Report");
