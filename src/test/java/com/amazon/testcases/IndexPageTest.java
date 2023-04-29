@@ -36,7 +36,7 @@ public class IndexPageTest extends BaseClass {
         Log.startTestCase("verifyTitleTest");
         String actTitle = indexPage.getAmazonTitle();
         Log.info("verifying that the title matches");
-        Assert.assertEquals(actTitle,"Amazon.com. Spend less. Smile more.");
+        Assert.assertEquals(actTitle,"Amazon.com. Spends less. Smile more.");
        Log.endTestCase("verifyTitleTest");
     }
 

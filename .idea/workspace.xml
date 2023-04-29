@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d295b45b-095d-4178-b3b1-015e26f1e2ea" name="Changes" comment="latest commit">
-      <change afterPath="$PROJECT_DIR$/screenshots/2023_04_26_20_57_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/BrokenLinkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/BrokenLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngParellel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_02_38_31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_02_46_42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_03_03_12_28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_15_46_29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_16_38_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_03_06_17_11_46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_15_06_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_15_41_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_15_36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_16_43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_17_52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_20_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_27_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2023_04_01_16_30_55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/actiondriver/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/actiondriver/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/IndexPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/pageobjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/ListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/ListenerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/TestDataNew.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/TestDataNew.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/IndexPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/IndexPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/SearchResultsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/SearchResultsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/TestDataNew.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/TestDataNew.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testDataSheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testDataSheet.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport/MyReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport/MyReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681264543609</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="latest commit">
+      <created>1682574624803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682574624803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
