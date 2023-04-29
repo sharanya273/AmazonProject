@@ -743,18 +743,34 @@ public class Action extends BaseClass {
         driver.manage().timeouts().pageLoadTimeout(timeOut, TimeUnit.SECONDS);
     }
 
-    public static String screenShot(WebDriver driver, String filename) {
-        String currentTimeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
-        String SCREENSHOTS_PATH = System.getProperty("user.dir") +  File.separator + "screenshots" + File.separator +currentTimeStamp + ".png";
-        String REPORT_SCREENSHOT_PATH = "http://localhost:8080/job/AmazonProject/ws/screenshots/" + currentTimeStamp + ".png";
-        File file = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
-        try {
-            FileUtils.copyFile(file,new File(SCREENSHOTS_PATH));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        return  REPORT_SCREENSHOT_PATH;
+//    public static String screenShot(WebDriver driver, String filename) {
+//        String currentTimeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
+//        String SCREENSHOTS_PATH = System.getProperty("user.dir") +  File.separator + "screenshots" + File.separator +currentTimeStamp + ".png";
+//        String REPORT_SCREENSHOT_PATH = "http://localhost:8080/job/AmazonProject/ws/screenshots/" + currentTimeStamp + ".png";
+//        File file = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
+//        try {
+//            FileUtils.copyFile(file,new File(SCREENSHOTS_PATH));
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//        return  REPORT_SCREENSHOT_PATH;
+//
+//    }
+    public String screenShot(WebDriver driver, String filename) {
+        String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+        File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        String destination = System.getProperty("user.dir") + "\\screenshots\\" + filename + "_" + dateName + ".png";
 
+        try {
+            FileUtils.copyFile(source, new File(destination));
+        } catch (Exception e) {
+            e.getMessage();
+        }
+        // This new path for jenkins
+        String newImageString = "http://localhost:8080/job/AmazonProject/ws/screenshots/" + filename + "_"
+                + dateName + ".png";
+        return newImageString;
     }
 
 

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d295b45b-095d-4178-b3b1-015e26f1e2ea" name="Changes" comment="added report screenshot path" />
+    <list default="true" id="d295b45b-095d-4178-b3b1-015e26f1e2ea" name="Changes" comment="added report screenshot path">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/actiondriver/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/actiondriver/Action.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682766008363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added report screenshot path">
+      <created>1682766893608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682766893608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
