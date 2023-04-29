@@ -746,7 +746,7 @@ public class Action extends BaseClass {
     public static String screenShot(WebDriver driver, String filename) {
         String currentTimeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
         String SCREENSHOTS_PATH = System.getProperty("user.dir") +  File.separator + "screenshots" + File.separator +currentTimeStamp + ".png";
-        String REPORT_SCREENSHOT_PATH = "/screenshots/" + currentTimeStamp + ".png";
+        String REPORT_SCREENSHOT_PATH = "http://localhost:8080/job/AmazonProject/ws/screenshots/" + currentTimeStamp + ".png";
         File file = ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file,new File(SCREENSHOTS_PATH));
