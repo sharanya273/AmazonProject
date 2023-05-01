@@ -29,7 +29,7 @@ public class IndexPageTest extends BaseClass {
        // Log.info("validate the log");
         boolean result = indexPage.validateLogo();
         Assert.assertTrue(result);
-     //   Log.endTestCase("verifyLogo");
+     //     Log.endTestCase("verifyLogo");
 
 
     }
