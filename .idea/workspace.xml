@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d295b45b-095d-4178-b3b1-015e26f1e2ea" name="Changes" comment="headless">
+    <list default="true" id="d295b45b-095d-4178-b3b1-015e26f1e2ea" name="Changes" comment="test logs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/IndexPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/testcases/IndexPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682773302175</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test logs">
+      <created>1682775447091</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682775447091</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,7 +271,8 @@
     <MESSAGE value="vwrify titile added s to spend" />
     <MESSAGE value="added report screenshot path" />
     <MESSAGE value="headless" />
-    <option name="LAST_COMMIT_MESSAGE" value="headless" />
+    <MESSAGE value="test logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="test logs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
